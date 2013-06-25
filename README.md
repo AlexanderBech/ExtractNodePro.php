@@ -32,7 +32,7 @@ $data = array(
 If field_custom_thing is something else, let's say an image, you would get:
 ```php
 $data = array(
-  'title' => 'Title of the content type',
+	'title' => 'Title of the content type',
 	'body' => 'Body of the content type',
 	'custom_thing' => array(
 		'uri' => 'public://image.jpg',
