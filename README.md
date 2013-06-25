@@ -41,3 +41,10 @@ $data = array(
 	)
 );
 ```
+
+Default values are: value, rgb, uri, alt, width, height
+What values gets extracted, can be modified like so:
+
+```php
+$data = extractNodePro($node, array('title', 'body', 'custom_thing'), array('alt', 'value'));
+```
