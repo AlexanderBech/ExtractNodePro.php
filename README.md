@@ -43,6 +43,7 @@ $data = array(
 ```
 
 Default values are: value, rgb, uri, alt, width, height
+
 What values gets extracted, can be modified like so:
 
 ```php
