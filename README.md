@@ -5,7 +5,17 @@ PHP function for extracting fields from Drupal Nodes into a simple and clean arr
 
 Usage
 ==================
-Insert extractNodePro function in template.php in your Drupal theme, and call the function in your node-template like so:
+Insert extractNodePro function in template.php in your Drupal theme, and call the function in your node-template.
+
+Let's say you have these fields on a content type:
+
+- title
+- body
+- field_custom_thing
+
+Then you can call the function like this:
+(Notice you can leave out "field_" on custom fields if you want)
+
 ```php
 $data = extractNodePro($node, array('title', 'body', 'custom_thing'));
 ```
